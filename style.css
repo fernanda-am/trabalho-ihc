@@ -89,8 +89,11 @@ main details {
 }
 
 main details>img {
-    width: 25%;
+    width: 150px;
     float: right;
+    padding: 10px;
+    display: block;
+    margin-top: 11px;
 }
 
 main h1 {
