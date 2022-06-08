@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <picture>
+            <img id="image" src="imagens/1200px-Star_wars2.svg.jpg" alt="">
+        </picture>
+    </header>
+    <nav>
+        <a href="loja.html" target="_blank">Loja</a>
+        <a href="contato.html" target="_blank">Contato</a>
+        <a href="curiosidades.html" target="_blank">Curiosidades</a>
+    </nav>
+    <div class="formulario">
+        <h1>Fale Conosco</h1>
+        <form method="post" action="#">
+            <div class="fields">
+                <div class="field">
+                    <input type="text" name="name" id="name" placeholder="Nome" />
+                </div>
+                <div class="field">
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="field">
+                    <textarea name="message" id="message" placeholder="Mensagem"></textarea>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><input type="button" value="enviar" onclick="reset()"></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
